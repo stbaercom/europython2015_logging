@@ -1,0 +1,31 @@
+{
+  "formatters" : {
+    "longformat" : {
+      "format" : "%(asctime)s,%(msecs)03d %(levelname)-10s %(name)-15s : %(message)s",
+      "datefmt" : "%Y-%m-%d %H:%M:%S"
+    }
+  },
+  "loggers" : {
+    "" : {
+      "handlers" : [
+        "console",
+        "logfile"
+      ],
+      "level" : "DEBUG"
+    }
+  },
+  "version" : 1,
+  "disable_existing_loggers" : true,
+  "handlers" : {
+    "console" : {
+      "formatter" : "longformat",
+      "class" : "logging.StreamHandler"
+    },
+    "logfile" : {
+      "formatter" : "longformat",
+      "mode" : "w",
+      "filename" : "logfile.txt",
+      "class" : "logging.FileHandler"
+    }
+  }
+}
