@@ -1,0 +1,113 @@
+<style>
+
+div.output_stderr {
+    background-color: #ffffff;
+    line-height: 1; 
+}
+
+.rendered_html {
+    font-family: "proxima-nova", helvetica;
+    font-size: 120%;
+    line-height: 1.3;
+}
+
+.rendered_html h1 {
+    margin: 0.25em 0em 0.5em;
+    color: #015C9C;
+    text-align: center;
+    line-height: 1.2; 
+    font-size: 300%;
+    page-break-before: always;
+}
+
+.rendered_html h2 {
+    margin: 0em 0em 0em;
+    color: #26465D;
+    line-height: 1.0;
+    font-size: 200%;
+    text-align: center;
+}
+
+.rendered_html h3 {
+    margin: 0.5em 0em 0.5em;
+    color: #002845;
+    line-height: 1.2;
+}
+
+.rendered_html  li  {
+    line-height: 1.2; 
+    font-size: 20pt;
+    margin: 0em 5em 0em;
+}
+}
+
+.prompt {
+    font-size: 110%; 
+}
+
+.CodeMirror-lines {
+    font-size: 110%; 
+}
+
+.output_area {
+    font-size: 110%; 
+}
+
+
+h1.bigtitle {
+    margin: 4cm 1cm 4cm 1cm;
+    font-size: 300%;
+}
+
+h3.point {
+    font-size: 200%;
+    text-align: center;
+    margin: 2em 0em 2em 0em;
+    #26465D
+}
+
+.sbpic {
+    margin: 10px 10px 10px 10px;
+}
+
+a.anchor-link {
+    display: none;
+}
+
+h1.title { 
+    font-size: 250%;
+}
+
+
+.CodeMirror-code { width:100% !important; }
+
+.container { width:100% !important; }
+
+
+
+.bst  {
+    font-size: 18px;
+    margin: 10px;
+    text-align: left;
+    border-collapse: collapse;
+}
+.bst td {
+    color: 2370ba;
+    padding: 2px;
+    background-color: #ffffff
+    border-top: 10px solid #fff;
+}
+.bst th {
+    color: #ffffff;
+    background-color: #2370ba
+}
+.bst tr:nth-child(even) {
+    background: #CCC;
+}
+
+
+table {
+    font-size:50px;
+}
+
+</style>
